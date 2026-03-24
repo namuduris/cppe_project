@@ -1,0 +1,41 @@
+# Unified Python dependencies for this workspace's application logic
+# Covers:
+# - three/agent_api.py (FastAPI + LangChain/Groq FinOps/SecOps agent)
+# - three/RAG_LLM_CVE/*.py (RAG CVE extraction and embedding workflows)
+
+# API service
+fastapi
+uvicorn
+pydantic
+pandas
+
+# LangChain stack
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langchain-qdrant
+qdrant-client
+
+# RAG + model runtime
+torch
+transformers
+sentence-transformers
+accelerate
+bitsandbytes
+tokenizers
+tqdm
+huggingface_hub
+torchaudio
+torchvision
+
+# Data/scientific utilities
+numpy
+
+# Document parsing / NLP / reporting
+PyMuPDF
+spacy
+reportlab
+
+# Database adapter used by RAG project requirements
+psycopg2-binary
